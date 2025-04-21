@@ -7,7 +7,7 @@ const ClearAllTodos = ({ todos, setTodos }) => {
     try {
       await Promise.all(
         todos.map((todo) =>
-          fetch(`https://playground.4geeks.com/todo/${todo.id}`, {
+          fetch(`https://playground.4geeks.com/todo/todos/${todo.id}`, {
             method: "DELETE",
           })
         )

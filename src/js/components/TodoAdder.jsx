@@ -23,7 +23,7 @@ const TodoAdder = ({ setTodos }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="d-flex flex-column w-50 m-5">
+    <form onSubmit={handleSubmit} className="d-flex flex-column w-100 m-5">
       <div className="input-group mb-3">
         <input
           type="text"
